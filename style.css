@@ -188,3 +188,19 @@ color: rgba(0, 0, 0, 0.64);
   background: none;
   border-radius: 8px;
 }
+
+.examplesBlock{
+    margin-top: 75px !important;
+}
+.gallery {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.imgGallary{
+    width: 30%;
+}
+
+.footerBlock{
+    background: #9fc691;
+}
