@@ -1,0 +1,28 @@
+@media screen and (max-width:426px) {
+    .imgAboutMe{
+        width: 95%;
+    }
+    .nameText{
+        margin-top: 10px;
+    }
+    .aboutText{
+        margin-top: 15px;
+    }
+    .btnRecord{
+        width:80%;
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+    .blockTypeWithImg{
+        border-bottom: 3px solid #9FC691;
+        text-align: center;
+        margin-top: 25px !important;
+    }
+    .typePhoto{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
