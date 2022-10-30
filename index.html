@@ -1,114 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
-    <link href="./media-style.css" rel="stylesheet">
-    <link href="./simple-lightbox.css" rel="stylesheet">
-    <link href="./bootstrap.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./media-style.css" rel="stylesheet" />
+    <link href="./simple-lightbox.css" rel="stylesheet" />
+    <link href="./bootstrap.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container-fluid">
-        <div class="row header">
-            <div class="col row">
-                <div class="col">
-                    <img src="./img/facebook.svg"/>
-                    <img src="./img/telegram.svg" alt="">
-                    <img src="./img/instagram.svg" alt="">
-                </div>
-                <div class="col">
-                    <a class="navItem" href="#">Головна</a>
-                </div>
-                <div class="col">
-                    <a class="navItem" href="#">Фотограф</a>
-                </div>
-            </div>
-            <div class="col logoText">Svit Photo LUM</div>
-            <div class="col row">
-                <div class="col">
-                    <a class="navItem" href="#">Послуги</a>
-                </div>
-                <div class="col">
-                    <a class="navItem" href="#">Контакти</a>
-                </div>
-            </div>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand logoText" href="#">Svit Photo LUM</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Фотограф</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Послуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Контакти</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img src="./img/facebook.svg" alt="" />
+                  <img src="./img/instagram.svg" alt="" />
+                  <img src="./img/telegram.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="row blockAboutImg">
-            <div class="offset-lg-1 col-lg-4">
-                <img class="imgAboutMe" src="./img/photo1.png"/>
-            </div>
-            <div class="offset-lg-2 col-lg-4 blockAboutMe">
-                <div class="nameText">Cвітлана Татьянченко</div>
-                <div class="aboutText">
-                    Привіт! Мене звати Світлана;) Я дуже люблю розповідати історії про людей через фотографію. Буденне життя, визначні чи просто важливі події, або ж казкові образи, які можуть показати ваші мрії та яскравий внутрішній світ!
-                </div>
-                <button class="btnRecord">Запис на зйомку</button>
-            </div>
+      </nav>
+      <div class="row header">
+        <div class="col row">
+          <div class="col">
+            <img src="./img/facebook.svg" />
+            <img src="./img/telegram.svg" alt="" />
+            <img src="./img/instagram.svg" alt="" />
+          </div>
+          <div class="col">
+            <a class="navItem" href="#">Головна</a>
+          </div>
+          <div class="col">
+            <a class="navItem" href="#">Фотограф</a>
+          </div>
         </div>
-        <div class="row blockType">
-            <div class="offset-lg-2 col-lg-2 blockTypeWithImg">
-                <img class="typePhoto" src="./img/type1.png">
-                <div class="typeTitle">Індивідуальна</div>
-                <div class="typeDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna reipiscing </div>
-                <div class="typePrice">STARTING PRICE OF $100</div>
-            </div>
-            <div class="offset-lg-1 col-lg-2 blockTypeWithImg">
-                <img class="typePhoto" src="./img/type2.png" alt="">
-                <div class="typeTitle">SERVICE PACKAGE 2</div>
-                <div class="typeDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna reipiscing </div>
-                <div class="typePrice">STARTING PRICE OF $150</div>
-            </div>
-            <div class="offset-lg-1 col-lg-2 blockTypeWithImg">
-                <img class="typePhoto" src="./img/type3.png" alt="">
-                <div class="typeTitle">SERVICE PACKAGE 3</div>
-                <div class="typeDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna reipiscing </div>
-                <div class="typePrice">STARTING PRICE OF $200</div>
-            </div>
+        <div class="col logoText">Svit Photo LUM</div>
+        <div class="col row">
+          <div class="col">
+            <a class="navItem" href="#">Послуги</a>
+          </div>
+          <div class="col">
+            <a class="navItem" href="#">Контакти</a>
+          </div>
         </div>
-        <div class="blockLetsWork row">
-            <div class="col letsDiscription">
-                <div class="letsTitle">ДАВАЙТЕ ПРАЦЮВАТИ РАЗОМ</div>
-                <div class="letsDiscriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna reipiscing </div>
-                <button class="letsButton">LET'S CHAT</button>
-            </div>
-            <div class="col letsPhoto">
-                <img class="imgLets" src="./img/photo2.png" alt="">
-            </div>
+      </div>
+      <div class="row blockAboutImg">
+        <div class="offset-lg-1 col-lg-4">
+          <img class="imgAboutMe" src="./img/photo1.png" />
         </div>
-        <div class="row examplesBlock">
-            <div class="gallery">
-                <a href="./img/example/family_3.webp"><img class="imgGallary" src="./img/example/family_3.webp" alt="" title="Variant 1"/></a>
-                <a href="./img/example/individual_2.webp"><img class="imgGallary" src="./img/example/individual_2.webp" alt="" title="Variant 2"/></a>
-                <a href="./img/example/individual_8.webp"><img class="imgGallary" src="./img/example/individual_8.webp" alt="" title="Variant 3"/></a>
-            </div>
+        <div class="offset-lg-2 col-lg-4 blockAboutMe">
+          <div class="nameText">Cвітлана Татьянченко</div>
+          <div class="aboutText">
+            Привіт! Мене звати Світлана;) Я дуже люблю розповідати історії про людей через
+            фотографію. Буденне життя, визначні чи просто важливі події, або ж казкові образи, які
+            можуть показати ваші мрії та яскравий внутрішній світ!
+          </div>
+          <button class="btnRecord">Запис на зйомку</button>
         </div>
-        <div class="row footerBlock">
-            <div class="col-3 offset-1">
-                <div class="logoText">Svit Photo LUM</div>
-            </div>
-            <div class="col-3">
-                    <img class="img-footer" src="./img/facebook.svg"/>
-                    <img class="img-footer" src="./img/telegram.svg" alt="">
-                    <img class="img-footer" src="./img/instagram.svg" alt="">
-                    <img class="img-footer" src="./img/mail.svg" alt="">
-            </div>
-            <div class="row col-3">
-                <div class="col-8">
-                    <input class="inputEmail" placeholder="Ваш e-mail">
-                </div>
-                <div class="col-4">
-                    <button class="btnSubscriber">Підписатися</button>
-                </div>
-            </div>
-            <div class="copyrating" id="dataCopyrating"></div>
+      </div>
+      <div class="row blockType">
+        <div class="offset-lg-2 col-lg-2 blockTypeWithImg">
+          <img class="typePhoto" src="./img/type1.png" />
+          <div class="typeTitle">Індивідуальна</div>
+          <div class="typeDiscription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+            reipiscing
+          </div>
+          <div class="typePrice">STARTING PRICE OF $100</div>
         </div>
+        <div class="offset-lg-1 col-lg-2 blockTypeWithImg">
+          <img class="typePhoto" src="./img/type2.png" alt="" />
+          <div class="typeTitle">SERVICE PACKAGE 2</div>
+          <div class="typeDiscription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+            reipiscing
+          </div>
+          <div class="typePrice">STARTING PRICE OF $150</div>
+        </div>
+        <div class="offset-lg-1 col-lg-2 blockTypeWithImg">
+          <img class="typePhoto" src="./img/type3.png" alt="" />
+          <div class="typeTitle">SERVICE PACKAGE 3</div>
+          <div class="typeDiscription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+            reipiscing
+          </div>
+          <div class="typePrice">STARTING PRICE OF $200</div>
+        </div>
+      </div>
+      <div class="blockLetsWork row">
+        <div class="col letsDiscription">
+          <div class="letsTitle">ДАВАЙТЕ ПРАЦЮВАТИ РАЗОМ</div>
+          <div class="letsDiscriptionText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+            reipiscing
+          </div>
+          <button class="letsButton">LET'S CHAT</button>
+        </div>
+        <div class="col letsPhoto">
+          <img class="imgLets" src="./img/photo2.png" alt="" />
+        </div>
+      </div>
+      <div class="row examplesBlock">
+        <div class="gallery">
+          <a href="./img/example/family_3.webp"
+            ><img class="imgGallary" src="./img/example/family_3.webp" alt="" title="Variant 1"
+          /></a>
+          <a href="./img/example/individual_2.webp"
+            ><img class="imgGallary" src="./img/example/individual_2.webp" alt="" title="Variant 2"
+          /></a>
+          <a href="./img/example/individual_8.webp"
+            ><img class="imgGallary" src="./img/example/individual_8.webp" alt="" title="Variant 3"
+          /></a>
+        </div>
+      </div>
+      <div class="row footerBlock">
+        <div class="offset-md-3 col-md-3 col-sm-12">
+          <div class="logoText">Svit Photo LUM</div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <img class="img-footer" src="./img/facebook.svg" />
+          <img class="img-footer" src="./img/telegram.svg" alt="" />
+          <img class="img-footer" src="./img/instagram.svg" alt="" />
+          <img class="img-footer" src="./img/mail.svg" alt="" />
+        </div>
+        <div class="row col-md-3 col-sm-12">
+          <div class="col-md-8 col-sm-12">
+            <input class="inputEmail" placeholder="Ваш e-mail" />
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <button class="btnSubscriber">Підписатися</button>
+          </div>
+        </div>
+        <div class="copyrating" id="dataCopyrating"></div>
+      </div>
     </div>
     <script src="./simple-lightbox.js"></script>
     <script src="./bootstrap.js"></script>
     <script src="./basicScripts.js"></script>
     <script src="./dateCopyrating.js"></script>
-</body>
+  </body>
 </html>
