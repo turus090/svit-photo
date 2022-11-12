@@ -1,3 +1,4 @@
+
 let dataBlock = document.getElementById('dataCopyrating')
 
 let currentDate = new Date()

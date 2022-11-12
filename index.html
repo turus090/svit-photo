@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./bootstrap.css" rel="stylesheet" />
     <link href="./style.css" rel="stylesheet" />
     <link href="./media-style.css" rel="stylesheet" />
     <link href="./simple-lightbox.css" rel="stylesheet" />
-    <link href="./bootstrap.css" rel="stylesheet" />
+    
     <title>Document</title>
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbarBlock navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand logoText" href="#">Svit Photo LUM</a>
           <button
@@ -51,7 +52,7 @@
           </div>
         </div>
       </nav>
-      <div class="row header">
+      <div class="header row ">
         <div class="col row">
           <div class="col">
             <img src="./img/facebook.svg" />
@@ -154,13 +155,15 @@
           <img class="img-footer" src="./img/instagram.svg" alt="" />
           <img class="img-footer" src="./img/mail.svg" alt="" />
         </div>
-        <div class="row col-md-3 col-sm-12">
+        <div class="col-md-3 col-sm-12">
+          <div class="row">
           <div class="col-md-8 col-sm-12">
             <input class="inputEmail" placeholder="Ваш e-mail" />
           </div>
           <div class="col-md-4 col-sm-12">
             <button class="btnSubscriber">Підписатися</button>
           </div>
+        </div>
         </div>
         <div class="copyrating" id="dataCopyrating"></div>
       </div>
@@ -169,5 +172,8 @@
     <script src="./bootstrap.js"></script>
     <script src="./basicScripts.js"></script>
     <script src="./dateCopyrating.js"></script>
+    <script>
+      console.log(window)
+    </script> 
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 .header{
     height: 80px;
     background: #9FC691;
@@ -20,6 +21,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
+}
+
+.imgAboutMe {
+    width: 100%;
 }
 .blockAboutImg{
     margin-top: 40px !important;

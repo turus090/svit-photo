@@ -1,4 +1,13 @@
+@media screen and (min-width: 427px){
+    .navbarBlock{
+        display: none;
+    }
+}
+
 @media screen and (max-width:426px) {
+    .header{
+        display: none !important;
+    }
     .imgAboutMe{
         width: 95%;
         margin-left: 2.5%;
