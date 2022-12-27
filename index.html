@@ -4,176 +4,165 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./bootstrap.css" rel="stylesheet" />
-    <link href="./style.css" rel="stylesheet" />
-    <link href="./media-style.css" rel="stylesheet" />
-    <link href="./simple-lightbox.css" rel="stylesheet" />
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbarBlock navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand logoText" href="#">Svit Photo LUM</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Головна</a>
+    <a name="main"> </a>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="nav-item" href="#main">Головна</a></li>
+          <li><a class="nav-item" href="#photograf">Фотограф</a></li>
+        </ul>
+        <div class="logo">Svit Photo Lum</div>
+        <ul>
+          <li><a class="nav-item" href="#services">Послуги</a></li>
+          <li class="nav-li">
+            <a class="nav-item" href="nav-item">Контакти</a>
+            <ul class="listContacts">
+              <li>
+                <a href="tel:+3806666"> +3806666</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Фотограф</a>
+              <li>
+                <a href="tel:+3806666"> +3806666</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Послуги</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Контакти</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <img src="./img/facebook.svg" alt="" />
-                  <img src="./img/instagram.svg" alt="" />
-                  <img src="./img/telegram.svg" alt="" />
-                </a>
+              <li>
+                <a href="tel:+3806666"> +3806666</a>
               </li>
             </ul>
-          </div>
-        </div>
+          </li>
+        </ul>
       </nav>
-      <div class="header row ">
-        <div class="col row">
-          <div class="col">
-            <img src="./img/facebook.svg" />
-            <img src="./img/telegram.svg" alt="" />
-            <img src="./img/instagram.svg" alt="" />
-          </div>
-          <div class="col">
-            <a class="navItem" href="#">Головна</a>
-          </div>
-          <div class="col">
-            <a class="navItem" href="#">Фотограф</a>
-          </div>
-        </div>
-        <div class="col logoText">Svit Photo LUM</div>
-        <div class="col row">
-          <div class="col">
-            <a class="navItem" href="#">Послуги</a>
-          </div>
-          <div class="col">
-            <a class="navItem" href="#">Контакти</a>
-          </div>
+
+      <div class="social-media">
+        <div class="socialWrapper">
+          <a class="social-a" href="">
+            <svg class="social-svg">
+              <use xlink:href="./social-media.svg#facebook"></use></svg
+          ></a>
+          <a class="social-a" href=""
+            ><svg>
+              <use xlink:href="./social-media.svg#telegram"></use></svg
+          ></a>
+          <a class="social-a" href=""
+            ><svg>
+              <use xlink:href="./social-media.svg#instagram"></use></svg
+          ></a>
         </div>
       </div>
-      <div class="row blockAboutImg">
-        <div class="offset-lg-1 col-lg-4">
-          <img class="imgAboutMe" src="./img/photo1.png" />
+    </header>
+
+    <main>
+      <a name="photograf"></a>
+      <div class="aboutPhotoText">
+        <div class="aboutPhoto">
+          <img src="./img/photo1.png" />
+          <a name="services"></a>
         </div>
-        <div class="offset-lg-2 col-lg-4 blockAboutMe">
-          <div class="nameText">Cвітлана Татьянченко</div>
-          <div class="aboutText">
+        <div class="aboutTextBlock">
+          <p class="authorName">Світлана Татьянченко</p>
+          <p class="aboutText">
             Привіт! Мене звати Світлана;) Я дуже люблю розповідати історії про людей через
             фотографію. Буденне життя, визначні чи просто важливі події, або ж казкові образи, які
             можуть показати ваші мрії та яскравий внутрішній світ!
-          </div>
-          <button class="btnRecord">Запис на зйомку</button>
+          </p>
+          <button id="btnRecordToOrden">Запис на зйомку</button>
         </div>
       </div>
-      <div class="row blockType">
-        <div class="offset-lg-2 col-lg-2 blockTypeWithImg">
-          <img class="typePhoto" src="./img/type1.png" />
-          <div class="typeTitle">Індивідуальна</div>
-          <div class="typeDiscription">
+      <div class="serviceBlock">
+        <div class="serviceWrapper">
+          <div class="service">
+            <img src="./img/type-1.png" alt="" />
+            <p class="serviceName">Сервис 1</p>
+            <p class="serviceDiscription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+              reipiscing
+            </p>
+            <p class="servicePrice">Прайс</p>
+          </div>
+          <div class="service">
+            <img src="./img/type-2.png" alt="" />
+            <p class="serviceName">Сервис 2</p>
+            <p class="serviceDiscription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+              reipiscing
+            </p>
+            <p class="servicePrice">Прайс</p>
+          </div>
+          <div class="service">
+            <img src="./img/type-3.png" alt="" />
+            <p class="serviceName">Сервис 3</p>
+            <p class="serviceDiscription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
+              reipiscing
+            </p>
+            <p class="servicePrice">Прайс</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="workContainer">
+        <div class="greenBg">
+          <img src="./img/bg.png" alt="" />
+        </div>
+
+        <div class="workTextBlock">
+          <p class="workTitle">Давайте працювати разом</p>
+          <p class="workText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
             reipiscing
-          </div>
-          <div class="typePrice">STARTING PRICE OF $100</div>
+          </p>
+          <button id="btnChat" class="workBtn">Let's chat</button>
         </div>
-        <div class="offset-lg-1 col-lg-2 blockTypeWithImg">
-          <img class="typePhoto" src="./img/type2.png" alt="" />
-          <div class="typeTitle">SERVICE PACKAGE 2</div>
-          <div class="typeDiscription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
-            reipiscing
-          </div>
-          <div class="typePrice">STARTING PRICE OF $150</div>
-        </div>
-        <div class="offset-lg-1 col-lg-2 blockTypeWithImg">
-          <img class="typePhoto" src="./img/type3.png" alt="" />
-          <div class="typeTitle">SERVICE PACKAGE 3</div>
-          <div class="typeDiscription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
-            reipiscing
-          </div>
-          <div class="typePrice">STARTING PRICE OF $200</div>
+        <div class="workImg">
+          <img src="./img/photo2.png" />
         </div>
       </div>
-      <div class="blockLetsWork row">
-        <div class="col letsDiscription">
-          <div class="letsTitle">ДАВАЙТЕ ПРАЦЮВАТИ РАЗОМ</div>
-          <div class="letsDiscriptionText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.retium etia proin iaculis orna
-            reipiscing
-          </div>
-          <button class="letsButton">LET'S CHAT</button>
-        </div>
-        <div class="col letsPhoto">
-          <img class="imgLets" src="./img/photo2.png" alt="" />
-        </div>
-      </div>
-      <div class="row examplesBlock">
-        <div class="gallery">
-          <a href="./img/example/family_3.webp"
-            ><img class="imgGallary" src="./img/example/family_3.webp" alt="" title="Variant 1"
-          /></a>
-          <a href="./img/example/individual_2.webp"
-            ><img class="imgGallary" src="./img/example/individual_2.webp" alt="" title="Variant 2"
-          /></a>
-          <a href="./img/example/individual_8.webp"
-            ><img class="imgGallary" src="./img/example/individual_8.webp" alt="" title="Variant 3"
-          /></a>
+
+      <p class="clientRewievText">Відгуки клієнтів</p>
+      <div class="sliderContainer">
+        <div class="sliderWrapper">
+          <svg class="arrow">
+            <use xlink:href="./social-media.svg#arrow"></use>
+          </svg>
+          <p class="sliderText">sfsdfsdfsdgsdgsdgsgsdg</p>
+          <svg class="arrow arrowRight">
+            <use xlink:href="./social-media.svg#arrow"></use>
+          </svg>
         </div>
       </div>
-      <div class="row footerBlock">
-        <div class="offset-md-3 col-md-3 col-sm-12">
-          <div class="logoText">Svit Photo LUM</div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-          <img class="img-footer" src="./img/facebook.svg" />
-          <img class="img-footer" src="./img/telegram.svg" alt="" />
-          <img class="img-footer" src="./img/instagram.svg" alt="" />
-          <img class="img-footer" src="./img/mail.svg" alt="" />
-        </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="row">
-          <div class="col-md-8 col-sm-12">
-            <input class="inputEmail" placeholder="Ваш e-mail" />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <button class="btnSubscriber">Підписатися</button>
-          </div>
-        </div>
-        </div>
-        <div class="copyrating" id="dataCopyrating"></div>
-      </div>
+      <div class="galleryContainer"> 
+        <div class="greenBlock">  </div>
+    <div class="galleryWrapper">
+        <a class="gallery-link" href="./img/example/family_3.jpg">
+            <img class="gallery-img" src="./img/example/family_3.jpg" alt="">
+        </a>
+        <a class="gallery-link" href="./img/example/individual_2.webp">
+            <img class="gallery-img" src="./img/example/individual_2.webp" alt="">
+        </a>
+        <a class="gallery-link" href="./img/example/love_4.webp">
+            <img class="gallery-img" src="./img/example/love_4.webp" alt="">
+        </a>
+        <a class="gallery-link" href="">
+            <img class="gallery-img" src="" alt="">
+        </a>
+        <a class="gallery-link" href="">
+            <img class="gallery-img" src="" alt="">
+        </a>
+    </div>  
     </div>
+
+    </main>
+
     <script src="./simple-lightbox.js"></script>
-    <script src="./bootstrap.js"></script>
-    <script src="./basicScripts.js"></script>
-    <script src="./dateCopyrating.js"></script>
-    <script>
-      console.log(window)
-    </script> 
+    <script src="./script.js"></script>
   </body>
 </html>

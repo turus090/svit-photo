@@ -1,252 +1,375 @@
-
-.header{
-    height: 80px;
-    background: #9FC691;
-    padding-top: 25px;
-}
-.navItem{
-    outline: none;
-    text-decoration: none;
-    font-size: 18px;
-    color: #00000099;
-}
-.navItem:hover{
-    transition-duration:300ms;
-    color: #00000099;
-    font-weight: 800;
-}
-.logoText{
-    text-align: center;
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.imgAboutMe {
+.social-svg {
+  text-decoration: 0.5s;
+  width: 24px;
+  height: 24px;
+  fill: #404f3a;
+}
+
+.social-svg:hover {
+  border-radius: 24px;
+  transition-duration: 1s;
+  fill: antiquewhite;
+}
+header {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 145px;
+  background-color: #9fc691;
+  border-bottom: 2px solid #3e5d31;
+  z-index: 1000;
+  top: 0;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px 10%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.nav-item {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
+
+.nav-item:hover {
+  color: #707070;
+}
+.nav-li:hover > ul {
+  transition-duration: 1s;
+  opacity: 100%;
+}
+
+.listContacts {
+  transition-duration: 0.5s;
+  opacity: 0%;
+  position: absolute;
+  width: 140px;
+}
+
+.listContacts > li {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.listContacts > li > a {
+  color: #404f3a;
+}
+.logo {
+  font-size: 48px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-weight: 700;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.socialWrapper {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+
+.social-a:hover {
+  border-radius: 24px;
+  background-color: rgb(29, 70, 106);
+  transition-duration: 1s;
+  fill: antiquewhite;
+}
+
+.main {
+  width: 100%;
+}
+
+.aboutPhotoText {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutPhotoText > div {
+  width: 40%;
+  height: 660px;
+  margin-top: 89px;
+}
+
+.aboutPhoto > img {
+  width: 100%;
+  height: 660px;
+}
+
+.aboutTextBlock {
+  background: #9fc691;
+}
+
+.authorName {
+  margin: 120px 0px;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.aboutText {
+  margin: 0px 10%;
+  width: 80%;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.aboutTextBlock > button {
+  margin: 30px 30%;
+  width: 40%;
+  height: 50px;
+  background: #464343;
+  border: none;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: white;
+}
+
+.serviceBlock {
+  width: 100%;
+  margin-top: 136px;
+  display: flex;
+  justify-content: center;
+}
+
+.serviceWrapper {
+  width: 1479px;
+  display: flex;
+  justify-content: space-between;
+}
+.service {
+  width: 437px;
+}
+
+.service > img {
+  width: 437px;
+  height: 604px;
+}
+
+.serviceName {
+  text-align: center;
+  margin-top: 63px;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.11em;
+
+  color: #000000;
+}
+
+.serviceDiscription {
+  text-align: center;
+  margin: 25px 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.servicePrice {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 174%;
+}
+
+.workContainer {
+  margin-top: 180px;
+  background-size: 100% 790px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.greenBg {
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 790px;
+  background-color: #9fc691;
+}
+
+.greenBg > img {
+  width: 701px;
+  height: 790px;
+}
+
+.workTextBlock {
+  margin-top: 70px;
+  margin-left: 220px;
+  width: 600px;
+  height: 581px;
+  background-color: white;
+}
+
+.workTextBlock > button {
+  margin-top: 92px;
+  margin-left: 10%;
+  width: 80%;
+  height: 105px;
+  border: none;
+  background: #464343;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 174%;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+.workImg {
+  border: 15px solid white;
+  margin-top: 122px;
+  margin-left: 210px;
+}
+
+.workTitle {
+  text-align: center;
+  margin: 40px 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 54px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.workText {
+  width: 80%;
+  margin-left: 10%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.clientRewievText {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.sliderContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sliderWrapper {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 38.5px;
+  height: 52px;
+  fill: none;
+}
+.arrowRight {
+  transform: rotate(180deg);
+}
+
+.sliderText {
+  width: 923px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 114%;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.galleryContainer{
+    margin-top: 50px;
+    position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
-.blockAboutImg{
-    margin-top: 40px !important;
-}
-.blockAboutMe{
-    background: #9FC691;
-}
-.nameText{
+
+.greenBlock{
+    z-index: -1;
+    position: absolute;
     width: 100%;
-    text-align: center;
+    height: 305px;
+    background-color: #9fc691;
+}
 
-    margin-top:120px;
+.galleryWrapper{
+    margin-top: 100px;
+    z-index: 1;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-}
-.aboutText{
-    width: 100%;
-    text-align: center;
 
-    margin-top: 157px;
+}
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 174%;
+.gallery-link{
+    width: 250px;
+    height: 270px;  
 }
-.btnRecord{
-    transition-duration: 0.5s;
-    width: 40%;
-    
-    margin-top: 60px;
-    margin-left: 30%;
-    margin-right: 30%;
 
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    text-align: center;
-    color:white;
-    background: #464343;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.btnRecord:hover{
-    transition-duration: 1s;
-    border: 4px solid #464343;
-    font-weight: 900;
-    color:#464343;
-    background: none;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-.blockType{
-    margin-top: 88px !important;
-}
-.typeTitle{
-    width: 100% !important;
-    margin-top: 40px;
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-}
-.typeDiscription{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 174%;
-    color: #000000a3;
-}
-.typePrice{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 174%;
-}
-.blockLetsWork{
-    margin-top: 110px !important;
-    background: url("./img/background.png");
-    background-size: 100% 750px !important;
-    background-repeat: no-repeat;
-}
-.letsDiscription{
-    width: 650px;
-    height: 581px;
-
-    margin-top: 33px !important;
-    margin-left: 228px;
-    background-color: white;
-}
-.letsPhoto{
-    margin-top: 82px !important;
-    margin-left: 183px;    
-
-    width:544px !important;
-    height: 747px;
-}
-.imgLets{
-    border:10px solid white;
-}
-.letsTitle{
-    margin-top: 38px;
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-}
-.letsDiscriptionText{
-    margin-top: 64px;
-    margin-left: 111px;
-    margin-right: 198px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 174%;
-
-    color: #000000a3;
-}
-.letsButton{
-    transition-duration: 0.5s;
-    width: 50%;
-    
-    margin-top: 60px;
-    margin-left: 25%;
-    margin-right: 25%;
-
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    color:white;
-    background: #464343;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.letsButton:hover{
-    transition-duration: 1s;
-    border: 4px solid #464343;
-    font-weight: 900;
-    color:#464343;
-    background: none;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-.examplesBlock{
-    margin-top: 75px !important;
-}
-.gallery{
-    width: 60%;
-    margin: 0 auto;
-}
-.imgGallary{
-    width: 30%;
-}
-.footerBlock{
-    margin-top: 40px !important;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    border-top: 3px solid #868686;
-    background: #9FC691;
-}
-.img-footer{
-    margin-right: 10%;
-    width: 30px;
-    height: 30px;
-}
-.inputEmail{
-    outline: none;
-    border: none;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-}
-.btnSubscriber{
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    text-align: center;
-    color:white;
-    background: #464343;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.copyrating{
-    width: 100%;
-    margin-top: 20px;
-    text-align: center;
+.gallery-img{
+    width: 250px;
+    height: 270px;
 }

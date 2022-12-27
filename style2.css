@@ -1,0 +1,254 @@
+
+.header{
+    height: 80px;
+    background: #9FC691;
+    padding-top: 25px;
+}
+.navItem{
+    outline: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #00000099;
+}
+.navItem:hover{
+    transition-duration:300ms;
+    color: #00000099;
+    font-weight: 800;
+}
+.logoText{
+    text-align: center;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.imgAboutMe {
+    width: 100%;
+}
+.blockAboutImg{
+    margin-top: 40px !important;
+}
+.blockAboutMe{
+    background: #9FC691;
+}
+.nameText{
+    width: 100%;
+    text-align: center;
+
+    margin-top:120px;
+
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.aboutText{
+    width: 100%;
+    text-align: center;
+
+    margin-top: 157px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 174%;
+}
+.btnRecord{
+    transition-duration: 0.5s;
+    width: 40%;
+    
+    margin-top: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    background: #464343;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btnRecord:hover{
+    transition-duration: 1s;
+    border: 4px solid #464343;
+    font-weight: 900;
+    color:#464343;
+    background: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.blockType{
+    margin-top: 88px !important;
+}
+.typeTitle{
+    width: 100% !important;
+    margin-top: 40px;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.typeDiscription{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 174%;
+    color: #000000a3;
+}
+.typePrice{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 174%;
+}
+.blockLetsWork{
+    margin-top: 110px !important;
+    background: url("./img/background.png");
+    background-size: 100% 750px !important;
+    background-repeat: no-repeat;
+}
+.letsDiscription{
+    width: 650px;
+    height: 581px;
+
+    margin-top: 33px !important;
+    margin-left: 228px;
+    background-color: white;
+}
+.letsPhoto{
+    margin-top: 82px !important;
+    margin-left: 183px;    
+
+    width:544px !important;
+    height: 747px;
+}
+.imgLets{
+    border:10px solid white;
+}
+.letsTitle{
+    margin-top: 38px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+.letsDiscriptionText{
+    margin-top: 64px;
+    margin-left: 111px;
+    margin-right: 198px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 174%;
+
+    color: #000000a3;
+}
+.letsButton{
+    transition-duration: 0.5s;
+    width: 50%;
+    
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    background: #464343;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.letsButton:hover{
+    transition-duration: 1s;
+    border: 4px solid #464343;
+    font-weight: 900;
+    color:#464343;
+    background: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.examplesBlock{
+    margin-top: 75px !important;
+}
+.gallery{
+    width: 60%;
+    margin: 0 auto;
+}
+.imgGallary{
+    width: 30%;
+}
+.footerBlock{
+    margin-top: 40px !important;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    border-top: 3px solid #868686;
+    background: #9FC691;
+}
+.img-footer{
+    margin-right: 10%;
+    width: 30px;
+    height: 30px;
+}
+.inputEmail{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.btnSubscriber{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    background: #464343;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.copyrating{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
