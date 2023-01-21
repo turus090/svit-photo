@@ -1,7 +1,7 @@
 let btnRecordToOrden = document.querySelector('#btnRecordToOrden')
 btnRecordToOrden.addEventListener('click', ()=> {
     console.log(window.location)
-    window.location.href = 'https://t.me/Kron2a'
+    window.location.href = 'https://t.me/svit_photo_lum'
 })
 
 let btnChat = document.querySelector('#btnChat')

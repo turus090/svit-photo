@@ -1,0 +1,70 @@
+@media (max-width:425px) {
+    .header-main {
+        display: none;
+    }
+
+    .m-header{
+        display: block;
+    }
+
+    .social-media{
+        width: 100%;
+    }
+
+    .socialWrapper{
+        width: 50%;
+        margin: 2% 30%;
+    }
+
+    .aboutPhoto>img{
+        width: 100%;
+    }
+
+    .aboutPhotoText{
+        display: none;
+    }
+
+    .service-block{
+        margin-top: 35px;
+    }
+    .serviceWrapper{
+        width: 95%;
+        margin: 0 2.5%;
+        display: block;
+    }
+    .service{
+        width: 100%;
+    }
+
+    .service>img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+.greenBg{
+    display: none;
+}
+
+.workTextBlock{
+    margin: 0 5%;
+}
+    .workImg{
+        display: none;
+    }
+
+    .sliderContainer{
+        display: none;
+    }
+.galleryWrapper{
+    justify-content: start;
+    flex-wrap: wrap;
+}
+    .gallery-link{
+        width: 50%;
+        height: auto;
+    }
+.gallery-img{
+    width: 100%;
+    height: auto;
+}
+
+}
