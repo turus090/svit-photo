@@ -1,3 +1,91 @@
+@media (min-width:426px) and (max-width:768px){
+ .galleryWrapper {
+    display: none;
+ }
+ 
+ 
+
+ .serviceWrapper{
+ flex-wrap: wrap;
+ }
+ .service{
+    width: 100%;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #9fc691;
+ }
+
+ .service>img {
+    width: 95%;
+    height: auto;
+    margin: 0 2.5%;
+ }
+ .workTContainer {
+    margin-top: 15px;
+ }
+
+.serviceBlock {
+    margin-top: 50px;
+}
+
+ .header-nav{
+    width: 90%;
+ }
+
+ .nav-item {
+    font-size: 30px;
+ }
+
+ .aboutPhoto {
+display: none;
+ }
+.aboutPhotoText>div {
+    width: 100%;
+    height: auto;
+}
+
+.authorName {
+    margin: 60px 0;
+}
+
+.t-aboutPhoto{
+    display: block;
+    width: 50%;
+    margin: 25px 25%;
+  }
+
+  .workImg {
+    display: none;
+  }
+  .greenBg {
+    height: auto;
+    background: none;
+  }
+
+  .workTextBlock{
+    width: 90%;
+    margin: 25px 5%;
+    background-color: rgba(255, 255, 255, 0.588);
+  }
+
+  .sliderWrapper{
+    width: 100%;
+    justify-content: center;
+  }
+  .sliderText{
+    width: 70%;
+  }
+
+  .greenBlock{
+    height: 60px;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
 @media (max-width:425px) {
     .header-main {
         display: none;
