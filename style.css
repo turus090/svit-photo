@@ -458,3 +458,7 @@ color: #000000;
 .t-aboutPhoto{
   display: none;
 }
+
+.slider {
+  display: none;
+}
