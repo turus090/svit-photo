@@ -16,14 +16,14 @@ a {
   fill: antiquewhite;
 }
 
-.m-header{
+.m-header {
   display: none;
   background-color: #9fc691;
   padding: 2%;
   border-bottom: 2px solid #3e5d31;
 }
 
-.m-wrapper-burger{
+.m-wrapper-burger {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -33,44 +33,42 @@ a {
   width: 20px;
   border: none;
   background: none;
- 
 }
 
 .m-burger-svg {
   width: 20px;
   height: 48px;
 }
-.m-nav-list{
+.m-nav-list {
   width: 100%;
   display: none;
-
 }
 
-.m-burger:focus + .m-nav-list{
+.m-burger:focus + .m-nav-list {
   display: block;
 }
 
-.m-nav-item{
+.m-nav-item {
   display: flex;
   justify-content: center;
-border-top: 2px solid #3e5d31;
-margin: 10px 0;
+  border-top: 2px solid #3e5d31;
+  margin: 10px 0;
 }
 
-.m-nav-item>a {
+.m-nav-item > a {
   font-family: 'Caveat', cursive;
   font-size: 28px;
 }
 
-.m-nav-phones{
+.m-nav-phones {
   width: 40%;
 }
-.m-nav-phone{
+.m-nav-phone {
   width: 100%;
   display: block;
   font-family: 'Caveat', cursive;
   font-size: 18px;
-  color:#404F3A;
+  color: #404f3a;
   text-align: center;
 }
 
@@ -371,91 +369,148 @@ nav > ul {
 }
 
 .sliderWrapper {
-  width: 1000px;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .arrow {
-  width: 38.5px;
-  height: 52px;
+  width: 23px;
+  height: 14px;
   fill: none;
 }
 .arrowRight {
   transform: rotate(180deg);
 }
 
-.sliderText {
-  width: 923px;
-  text-align: center;
-  font-family: 'Poppins';
+.sliderReviewContent {
+  width: 40%;
+  margin: 0 2.2%;
+}
+
+.upInfo {
+  display: flex;
+  align-items: center;
+}
+
+.upContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.btnReview{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background: #9fc691;
+  transition-duration: 0.4s;
+}
+
+.btnReview:hover{
+  transition-duration: 0.8s;
+  background: #9fc691;
+}
+
+.reviewName {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  /* identical to box height */
+}
+
+.reviewDate {
+  margin-left: 6px;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 114%;
-  color: rgba(0, 0, 0, 0.64);
+  font-size: 16px;
+  line-height: 12px;
+
+  color: #868484;
+}
+.reviewStars {
+  display: flex;
+  align-items: center;
 }
 
-.galleryContainer{
-    margin-top: 50px;
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
+.reviewText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
 }
 
-.greenBlock{
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 305px;
-    background-color: #9fc691;
+.starIco {
+  width: 13px;
+  height: 13px;
 }
 
-.galleryWrapper{
-    margin-top: 100px;
-    z-index: 1;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-
-
+.galleryContainer {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.gallery-link{
-    width: 250px;
-    height: 270px;  
+.greenBlock {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 305px;
+  background-color: #9fc691;
 }
 
-.gallery-img{
-    width: 250px;
-    height: 270px;
+.galleryWrapper {
+  margin-top: 100px;
+  z-index: 1;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-link {
+  width: 250px;
+  height: 270px;
+}
+
+.gallery-img {
+  width: 250px;
+  height: 270px;
 }
 
 footer {
-background-color: #9fc691;
+  background-color: #9fc691;
   margin: 3% 0;
   width: 100%;
 }
 
-hr{
+hr {
   height: 2px;
   background-color: #3e5d31;
 }
 
-footer>p{
+footer > p {
   text-align: center;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 36px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
 
-color: #000000;
+  color: #000000;
 }
 
-.t-aboutPhoto{
+.t-aboutPhoto {
   display: none;
 }
 
