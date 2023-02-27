@@ -350,6 +350,141 @@ nav > ul {
   color: #000000;
 }
 
+.reviewForm {
+  width: 40%;
+  margin: 25px auto;
+  padding: 60px;
+  background: #9fc691;
+}
+
+.formTitle{
+  font-family: 'Caveat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+letter-spacing: 0.11em;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.upperForm {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upperForm::before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 5px;
+  background: #ffffff;
+border-radius: 4px;
+top: 23px;
+}
+
+
+
+.inputName {
+ margin-right: 50px;
+  width: 250px;
+  background: none;
+  border: none;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.11em;
+  
+  color: #FFFFFF;
+}
+
+.inputName:focus {
+  outline: none;
+  border: none;
+}
+
+.inputName::placeholder{
+  font-family: 'Caveat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.11em;
+
+color: #FFFFFF;
+}
+
+
+.starsForm {
+  display: flex;
+  align-items: center;
+
+}
+
+.star{
+  width: 23px;
+  height: 20px;
+}
+
+.bottomForm{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.reviewText{
+  width: 60%;
+  height: 60px;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background: none;
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.11em;
+  
+  color: #FFFFFF;
+}
+.reviewText:focus{
+  outline: none;
+}
+
+.reviewText::placeholder{
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.11em;
+  
+  color: #FFFFFF;
+}
+
+.formSend{
+  margin: 25px 35%;
+width: 30%;
+height: 40px;
+background: #464343;
+border: none;
+cursor: pointer;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 174%;
+border-radius: 10px;
+letter-spacing: 0.035em;
+
+color: #FFFFFF;
+}
+
 .clientRewievText {
   margin-top: 50px;
   width: 100%;
