@@ -12,6 +12,10 @@ const contactList = require('./contactList.js')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 
+const routerReview = require('./router/review')
+const routerGallery = require('./router/gallery')
+
+
 const corsOptions ={
     origin:'*',
     optionSuccessStatus: 200
@@ -25,14 +29,19 @@ mongoose.connect(config.mongoKey)
 .catch((err) => {
     console.log(err);
 })
+
+
 app.use(cors(corsOptions))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended : true}))
 
-const routerReview = require('./router/review')
 
+
+//app.use('/api', apiRouter)
+app.use('/img', express.static(__dirname + '/imgStore')) 
 
 app.use('/review', routerReview)
+app.use('/gallery', routerGallery)
 
 app.get('/', (req, res) => { 
     res.send('Welcome')
