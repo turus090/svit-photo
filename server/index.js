@@ -10,6 +10,12 @@ const config = require('./config.js')
 
 const contactList = require('./contactList.js')
 const bodyParser = require('body-parser') 
+const cors = require('cors')
+
+const corsOptions ={
+    origin:'*',
+    optionSuccessStatus: 200
+}
 
 
 mongoose.connect(config.mongoKey)
@@ -19,14 +25,14 @@ mongoose.connect(config.mongoKey)
 .catch((err) => {
     console.log(err);
 })
-
+app.use(cors(corsOptions))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended : true}))
 
-const apiRouter = require('./routers/api')
+const routerReview = require('./router/review')
 
 
-app.use('/api', apiRouter)
+app.use('/review', routerReview)
 
 app.get('/', (req, res) => { 
     res.send('Welcome')
