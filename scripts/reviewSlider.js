@@ -88,7 +88,7 @@ btnsReview.next.addEventListener('click', () => {
 export const getReviewAPI = (isNew = false) => {
 axios.get('http://localhost:4000/review/list')
 .then(res => {
-console.log(res.data)
+
 startSlider(res.data, isNew)
 })
 }
